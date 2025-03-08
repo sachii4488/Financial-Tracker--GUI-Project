@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in</title>
+    <link rel="stylesheet" href="incomepage.css">
+    <script src="incomepage.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="form-container">
+        <!-- Content here -->
+        <div >
+        <form>
+            <div class="form-group row">
+                <legend>Add Income</legend>
+                <div class="col-sm-10">
+                    <a class="btn exit" href="#" role="button">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Dell">
+                            <circle id="Ellipse 47" cx="21" cy="21" r="15.75" stroke="#0499AD" stroke-opacity="0.33" stroke-width="2"/>
+                            <path id="Vector 8" d="M15.75 26.2494L26.25 15.7494" stroke="#0499AD" stroke-opacity="0.33" stroke-width="2"/>
+                            <path id="Vector 9" d="M26.25 26.25L15.75 15.75" stroke="#0499AD" stroke-opacity="0.33" stroke-width="2"/>
+                            </g>
+                            </svg>
+                      </a>
+                </div>
+              </div>
+
+            <!-- Text input -->
+            <div class="form-group row">
+                <label for="formelem1" class="col-sm-2 col-form-label">Income name</label>
+                <div class="col-sm-10">
+                    <input type="text" id="formelem1" class="form-control" />
+                </div>
+              </div>
+
+            <!-- Amount input -->
+            <div class="form-group row">
+                <label for="formelem2" class="col-sm-2 col-form-label">Amount</label>
+                <div class="col-sm-10">
+                    <input type="number" id="formelem2" class="form-control" />
+                </div>
+              </div>
+        
+            <!-- Text input -->
+            <div class="form-group row">
+                <label for="formelem3" class="col-sm-2 col-form-label">Title</label>
+                <div class="col-sm-10">
+                    <input type="text" id="formelem3" class="form-control" />
+                </div>
+              </div>
+
+            <!-- Date input -->
+            <div class="form-group row">
+                <label for="formelem4" class="col-sm-2 col-form-label">Date</label>
+                <div class="col-sm-10">
+                    <div class="input-group date" id="datepicker">
+                    <input type="text" class="form-control" id="formelem4"/>
+                    <span class="input-group-append">
+                        <span class="input-group-text bg-light d-block">
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="calendar52" d="M20.0435 3.28015C19.9043 3.14532 19.737 3.03822 19.5518 2.96536C19.3666 2.89251 19.1674 2.85544 18.9663 2.85641H17.4231V1.78517C17.4267 1.55023 17.3783 1.31711 17.281 1.10019C17.1838 0.88327 17.0397 0.687151 16.8576 0.52393C16.6817 0.355141 16.4703 0.221592 16.2367 0.131516C16.003 0.0414393 15.7519 -0.00325616 15.499 0.000184582H14.7301C14.477 -0.00309463 14.2259 0.0417972 13.9922 0.132091C13.7585 0.222384 13.5473 0.356165 13.3714 0.52518C13.1893 0.688356 13.0452 0.884467 12.9479 1.1014C12.8506 1.31833 12.8023 1.55147 12.8059 1.78642V2.85766H8.18868V1.78517C8.19221 1.55023 8.14385 1.31711 8.04658 1.10019C7.94932 0.88327 7.8052 0.687151 7.62313 0.52393C7.44735 0.355296 7.23625 0.221837 7.00283 0.131765C6.76941 0.0416939 6.5186 -0.00308484 6.26584 0.000184582H5.49697C5.24389 -0.00309463 4.99277 0.0417972 4.75909 0.132091C4.52542 0.222384 4.31415 0.356165 4.13833 0.52518C3.95626 0.688401 3.81215 0.88452 3.71488 1.10144C3.61762 1.31836 3.56926 1.55148 3.57279 1.78642V2.85766H2.03371C1.83257 2.85669 1.63333 2.89376 1.44813 2.96661C1.26292 3.03947 1.09564 3.14657 0.956493 3.2814C0.81125 3.41058 0.69587 3.56586 0.617391 3.73779C0.538912 3.90971 0.498976 4.09467 0.50002 4.2814V18.57C0.505212 18.9467 0.668258 19.3067 0.954577 19.5736C1.24089 19.8406 1.62797 19.9935 2.03371 20H18.9609C19.3673 19.9948 19.7556 19.8426 20.043 19.5758C20.3304 19.309 20.4944 18.9486 20.4999 18.5713V4.28515C20.5017 4.09758 20.4621 3.91167 20.3836 3.73884C20.3051 3.566 20.1894 3.40991 20.0435 3.28015ZM5.50101 18.57H2.03371V15.3563H5.49563L5.50101 18.57ZM5.50101 14.6413H2.03371V11.0701H5.49563L5.50101 14.6413ZM5.50101 10.3551H2.03371V7.14137H5.49563L5.50101 10.3551ZM5.23171 5.24889C5.19527 5.21666 5.16632 5.17786 5.14664 5.13487C5.12696 5.09188 5.11696 5.0456 5.11725 4.99889V1.78517C5.11865 1.69076 5.15967 1.60058 5.23159 1.53381C5.30351 1.46704 5.40065 1.42897 5.50236 1.42767H6.26584C6.36754 1.42897 6.46469 1.46704 6.53661 1.53381C6.60853 1.60058 6.64955 1.69076 6.65094 1.78517V5.00014C6.64955 5.09455 6.60853 5.18473 6.53661 5.2515C6.46469 5.31826 6.36754 5.35634 6.26584 5.35764H5.49697C5.44611 5.35802 5.39571 5.34867 5.34892 5.33018C5.30212 5.31168 5.25993 5.28443 5.22498 5.25014L5.23171 5.24889ZM10.1182 18.5688H6.26584V15.3563H10.1129L10.1182 18.5688ZM10.1182 14.6401H6.26584V11.0701H10.1129L10.1182 14.6401ZM10.1182 10.3538H6.26584V7.14137H10.1129L10.1182 10.3538ZM14.7355 18.5675H10.8817V15.3563H14.7287L14.7355 18.5675ZM14.7355 14.6388H10.8817V11.0701H14.7287L14.7355 14.6388ZM14.7355 10.3526H10.8817V7.14137H14.7287L14.7355 10.3526ZM14.4662 5.24639C14.4291 5.21509 14.3992 5.17713 14.3784 5.1348C14.3575 5.09248 14.3462 5.04666 14.345 5.00014V1.78517C14.346 1.69066 14.3869 1.60029 14.4589 1.53346C14.5309 1.46663 14.6283 1.42865 14.7301 1.42767H15.499C15.6008 1.42865 15.6981 1.46663 15.7701 1.53346C15.8421 1.60029 15.883 1.69066 15.8841 1.78517V5.00014C15.883 5.09465 15.8421 5.18502 15.7701 5.25185C15.6981 5.31868 15.6008 5.35666 15.499 5.35764H14.7301C14.6792 5.35809 14.6288 5.34878 14.582 5.33028C14.5352 5.31178 14.493 5.28449 14.4581 5.25014L14.4662 5.24639ZM18.9689 18.5663H15.499V15.3563H18.9609L18.9689 18.5663ZM18.9689 14.6376H15.499V11.0701H18.9609L18.9689 14.6376ZM18.9689 10.3513H15.499V7.14137H18.9609L18.9689 10.3513Z" fill="#333333"/>
+                                </svg>
+                        </span>
+                      </span>
+                    </div>
+                </div>
+              </div>           
+
+            <!-- Message input -->
+            <div class="form-group row">
+                <label for="formelem5" class="col-sm-2 col-form-label">Additional information</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="formelem5" rows="4"></textarea>
+                </div>
+              </div>
+                
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Add</button>
+        </form>
+    </div>
+  </body>
